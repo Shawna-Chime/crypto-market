@@ -197,6 +197,10 @@ header {
   font-size: 1.7rem;
 }
 
+.value-four {
+  width: 245px;
+}
+
 .value-scale {
   background: var(--background-color-1);
   border-radius: 8px;
