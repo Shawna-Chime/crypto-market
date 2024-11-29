@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-color: #fff;
+  --grey-color: #676772;
+  --background-color-1: #010314;
+  --background-color-2: #10121d;
+  --background-color-3: #08073b;
+  --theme-color: #5729d6;
+  --accent-color-1: #df86aa;
+  --accent-color-2: #585961;
+  --accent-color-3: #e275ff;
+  --accent-color-4: #71c19e;
+
+  --font-1: "Outfit", sans-serif;
+  --font-2: "Plus Jakarta Sans", sans-serif;
+
+  --font-weight-thicker: 700;
+  --font-weight-thick: 600;
+  --font-weight-medium: 500;
+  --font-weight-thin: 400;
+}
+
+/* STYLE GUIDE FOR BUTTONS */
+/* Basic */
+
+.btn {
+  cursor: pointer;
+  border: none;
+  transition: all 300ms ease;
+  outline: none;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: var(--white-color);
+  color: var(--background-color-1);
+  font-weight: var(--font-weight-thicker);
+  font-family: var(--font-1);
+}
+
+.btn-secondary {
+  background-color: var(--background-color-1);
+  color: var(--white-color);
+  font-weight: var(--font-weight-thicker);
+  font-family: var(--font-1);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--white-color);
+}
+
+.btn-login {
+  padding: 1.1rem 2.2rem;
+  border-radius: 1.7rem;
+  color: var(--background-color-1);
+  background-color: var(--white-color);
+  font-weight: var(--font-weight-thick);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(
+    82.3deg,
+    var(--accent-color-1) 10.8%,
+    var(--theme-color) 94.3%
+  );
+  color: var(--white-color);
+  transition: all 300ms ease;
+}
+
+.btn-primary i {
+  color: var(--accent-color-1);
+}
+
+.btn-primary i:hover {
+  color: var(--white-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--white-color);
+  color: var(--background-color-3);
+  transition: all 300ms ease;
+}
+
+.btn-secondary i:hover {
+  color: var(--accent-color-1);
+}
+
+.btn-login:hover {
+  background: linear-gradient(
+    82.3deg,
+    var(--accent-color-1) 10.8%,
+    var(--theme-color) 94.3%
+  );
+  color: var(--white-color);
+  transition: all 300ms ease;
+}
+
+/* Button Shape */
+
+.round-btn {
+  cursor: pointer;
+  padding: 15px;
+  background-color: var(--accent-color-1);
+  font-size: 16px;
+  border-radius: 50%;
+  color: var(--white-color);
+}
+
+.round-btn-primary {
+  cursor: pointer;
+  padding: 15px;
+  background-color: var(--white-color);
+  font-size: 16px;
+  border-radius: 50%;
+  color: var(--background-color-1);
+}
+
+.round-btn-secondary {
+  cursor: pointer;
+  padding: 15px;
+  background-color: var(--white-color);
+  font-size: 16px;
+  border-radius: 50%;
+  color: var(--theme-color);
+}
+
+.round-btn-primary:hover {
+  background-color: var(--accent-color-1);
+  color: var(--white-color);
+  transition: all 300ms ease;
+}
+
+.round-btn-secondary:hover {
+  background-color: var(--accent-color-2);
+  color: var(--white-color);
+  transition: all 300ms ease;
+}
+
+.square-btn {
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--accent-color-1);
+  font-size: 16px;
+  border-radius: 10%;
+  color: var(--white-color);
+}
+
+.square-btn:hover {
+  cursor: pointer;
+  color: var(--white-color);
+  background-color: var(--background-color-2);
+}
+
+/* Button Size */
+
+.btn-large {
+  border-radius: 2rem;
+  padding: 14px 45px;
+}
+
+.btn-mid {
+  border-radius: 2rem;
+  padding: 18px 45px;
+}
+
+.btn-small {
+  padding: 10px 50px;
+  border-radius: 1.9rem;
+}
+
+/* SCROLLBAR STYLE */
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background: var(--background-color-2);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    var(--background-color-1),
+    var(--accent-color-3)
+  );
+  border-radius: 0.5rem;
+}
