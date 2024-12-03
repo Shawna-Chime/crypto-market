@@ -20,6 +20,13 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
@@ -30,13 +37,25 @@
           <div class="iko-logo">
             <img src="./assets/images/iko logo.webp" alt="" />
           </div>
-          <div class="nav-links">
-            <a href="#">HOME</a>
-            <a href="">FEATURE</a>
-            <a href="">ROADMAP</a>
-            <a href="">BLOG</a>
-            <a href="">CONTACT</a>
-          </div>
+          <ul class="nav-links">
+            <li>
+              <a href="./index.html">HOME</a>
+              <ul class="dropdown-menu slide-down">
+                <li><a href="./index.html">ICO INVESTMENT</a></li>
+                <li><a href="#">BLOCKCHAIN</a></li>
+              </ul>
+            </li>
+            <li><a href="">FEATURE</a></li>
+            <li><a href="">ROADMAP</a></li>
+            <li>
+              <a href="">BLOG</a>
+              <ul class="dropdown-menu slide-down">
+                <li><a href="#">OUR BLOG</a></li>
+                <li><a href="./blog_details.html">BLOG-DETAILS</a></li>
+              </ul>
+            </li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
           <div class="nav-icons">
             <div class="language">
               <h4>ENG</h4>
@@ -97,9 +116,851 @@
                 <li class="value-six">140,000 $ chosen</li>
               </ul>
             </div>
+            <div class="hero-card-countdown">
+              <div class="current-count">
+                <p>days</p>
+                <span>156</span>
+              </div>
+              <div class="dot-div">
+                <div class="grey-dot"></div>
+                <div class="grey-dot"></div>
+              </div>
+              <div class="current-count">
+                <p>hours</p>
+                <span>16</span>
+              </div>
+              <div class="dot-div">
+                <div class="grey-dot"></div>
+                <div class="grey-dot"></div>
+              </div>
+              <div class="current-count">
+                <p>mins</p>
+                <span>32</span>
+              </div>
+              <div class="dot-div">
+                <div class="grey-dot"></div>
+                <div class="grey-dot"></div>
+              </div>
+              <div class="current-count">
+                <p>sec</p>
+                <span>6</span>
+              </div>
+            </div>
+          </div>
+          <div class="top-parnters-container">
+            <div class="top-partners-title">
+              <div class="pink-dot"></div>
+              <h4>OUR TOP PARTNERS</h4>
+              <div class="pink-dot"></div>
+            </div>
+            <div class="top-partners-slider">
+              <div class="slide slide-one">
+                <img src="./assets/images/caldenly logo.webp" alt="" />
+              </div>
+              <div class="slide slide-two">
+                <img src="./assets/images/catalog logo.webp" alt="" />
+              </div>
+              <div class="slide slide-three">
+                <img src="./assets/images/github logo.webp" alt="" />
+              </div>
+              <div class="slide slide-four">
+                <img src="./assets/images/quotient logo.webp" alt="" />
+              </div>
+              <div class="slide slide-five">
+                <img src="./assets/images/catalog logo.webp" alt="" />
+              </div>
+              <div class="slide slide-six">
+                <img src="./assets/images/monday logo.webp" alt="" />
+              </div>
+              <div class="slide slide-seven">
+                <img src="./assets/images/caldenly logo.webp" alt="" />
+              </div>
+              <div class="slide slide-eight">
+                <img src="./assets/images/github logo.webp" alt="" />
+              </div>
+            </div>
+            <div class="slider-buttons"></div>
+          </div>
+          <div class="why-iko-container">
+            <div class="why-iko-heading">
+              <div class="why-iko-title">
+                <h1>Why You Choose IKO is worth buying today?</h1>
+                <p>
+                  Use the window for the planned investment and calculate the
+                  estimated Iko price and your monthly dividends at a fixed time
+                </p>
+              </div>
+              <div class="why-iko-image">
+                <img src="./assets/images/black bitcoins.webp" alt="" />
+              </div>
+            </div>
+            <div class="why-iko-content">
+              <div class="why-iko-info">
+                <div class="why-iko-info-heading">
+                  <div class="why-iko-amount-quantity">
+                    <h2>Amount invested</h2>
+                    <p>50,000 $</p>
+                  </div>
+                  <div class="why-iko-amount-quantity">
+                    <h2>Quantity Iko</h2>
+                    <p>500,000 Iko</p>
+                  </div>
+                </div>
+                <div class="why-iko-info-body">
+                  <div class="info-body-price">
+                    <h4>Expected FOX price</h4>
+                    <p>0.36 $</p>
+                    <div class="progress-bar">
+                      <div class="bar-fill"></div>
+                      <div class="pink-dot"></div>
+                    </div>
+                    <div class="info-body-price-amount">
+                      <h3>100 $</h3>
+                      <h3>100,000 $</h3>
+                    </div>
+                  </div>
+                  <div class="info-body-price">
+                    <h4>Expected FOX price</h4>
+                    <p>0.36 $</p>
+                    <div class="progress-bar">
+                      <div class="bar-fill"></div>
+                      <div class="pink-dot"></div>
+                    </div>
+                    <div class="info-body-price-amount">
+                      <h3>100 $</h3>
+                      <h3>100,000 $</h3>
+                    </div>
+                  </div>
+                  <div class="info-body-price">
+                    <h4>Calculation time</h4>
+                    <p>Q3 2020</p>
+                    <div class="progress-bar calc-time">
+                      <div class="bar-fill"></div>
+                      <div class="pink-dot"></div>
+                    </div>
+                    <div class="info-body-price-amount">
+                      <h3>100 $</h3>
+                      <h3>100,000 $</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="why-iko-card-container">
+                <div class="why-iko-card">
+                  <div class="why-iko-card-icon">
+                    <img
+                      src="./assets/images/feature-icon1-1.b96f1c37.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="why-iko-card-info">
+                    <div class="why-iko-card-title">
+                      <h3>The expected value of your investment</h3>
+                    </div>
+                    <div class="why-iko-card-text">
+                      <p>180,000 $</p>
+                      <p>ROI = 360 %</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="why-iko-card">
+                  <div class="why-iko-card-icon">
+                    <img
+                      src="./assets/images/feature-icon1-2.96d30118.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="why-iko-card-info">
+                    <div class="why-iko-card-title">
+                      <h3>Expected monthly dividend</h3>
+                    </div>
+                    <div class="why-iko-card-text">
+                      <p>3600 FOX = 1296 $</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="why-iko-card">
+                  <div class="why-iko-card-icon">
+                    <img
+                      src="./assets/images/feature-icon1-3.870c508b.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="why-iko-card-info">
+                    <div class="why-iko-card-title">
+                      <h3>Masternode bonus</h3>
+                    </div>
+                    <div class="why-iko-card-text">
+                      <p>180,000 $</p>
+                      <p>ROI = 360 %</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
+      <section class="iko-roadmap-section">
+        <div class="introducing-iko">
+          <div class="introducing-iko-left">
+            <div class="introducing-iko-title">
+              <h2>Introducing Iko Crypto</h2>
+              <p>True wealth in the world of virtual currencies</p>
+            </div>
+            <div class="introducing-iko-content">
+              <div class="intro-point">
+                <div class="intro-point-title">
+                  <div class="pink-dot"></div>
+                  <h4>Who We Are</h4>
+                </div>
+                <p>
+                  Iko is a 100% pre-scratched cryotome There are 1 Million
+                  Minutes, and 60% of them can be yours (60% - ICO) Utility &
+                  security token (applies to all transactions and gives a
+                  monthly dividend)
+                </p>
+              </div>
+              <div class="intro-point">
+                <div class="intro-point-title">
+                  <div class="pink-dot"></div>
+                  <h4>Wealth?</h4>
+                </div>
+                <p>
+                  Users with Iko have lower system fees Price growth is gathered
+                  by demand for Unifox technologies. You own a stake in an
+                  international corporation. You are part of the community
+                </p>
+              </div>
+              <div class="intro-point">
+                <div class="intro-point-title">
+                  <div class="pink-dot"></div>
+                  <h4>True Riches?</h4>
+                </div>
+                <p>
+                  The underlying growth attracts investors The whole community
+                  is interested in growing the Iko prize. The company is
+                  planning to continue to expand the project, and it will cost
+                  the top up
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="introducing-iko-right">
+            <div class="introducing-iko-image">
+              <img class="float" src="./assets/images/badge.webp" alt="" />
+            </div>
+            <div class="introducing-iko-content">
+              <div class="intro-point">
+                <div class="intro-point-title">
+                  <div class="pink-dot"></div>
+                  <h4>Our Mission & Vission</h4>
+                </div>
+                <p>
+                  Iko is a 100% pre-scratched cryptome There are 1 Million
+                  Minutes, and 60% of them can be yours (60% - ICO) Utility &
+                  security token (applies to all transactions and gives a
+                  monthly dividend)
+                </p>
+                <p>
+                  Iko is a 100% pre-scratched cryptome There are 1 Million
+                  Minutes, and 60% of them can be yours (60% - ICO) Utility &
+                  security token (applies to all transactions and gives a
+                  monthly dividend)
+                </p>
+                <p>
+                  Iko is a 100% pre-scratched cryptome There are 1 Million
+                  Minutes, and 60% of them can be yours (60% - ICO)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-roadmap">
+          <div class="our-roadmap-heading">
+            <h2>Our Roadmap</h2>
+            <div class="roadmap-buttons">
+              <!-- <div class="prev-arrow">
+                <i class="ri-arrow-left-line round-btn-primary"></i>
+              </div>
+              <div class="next-arrow">
+                <i class="ri-arrow-right-line round-btn-primary"></i>
+              </div> -->
+            </div>
+          </div>
+          <div class="roadmap-slider-container">
+            <div class="roadmap-slider-content">
+              <div class="roadmap-slider-title">END OF Q4 2021</div>
+              <div class="roadmap-slider-card">
+                <h4>Concept</h4>
+                <p>
+                  SubQuery Builders/Grants Program SQT Network contract internal
+                  MVP Coordinator and client SDK implementations
+                </p>
+              </div>
+            </div>
+            <div class="roadmap-slider-content">
+              <div class="roadmap-slider-title">END OF Q4 2021</div>
+              <div class="roadmap-slider-card">
+                <h4>Research</h4>
+                <p>
+                  SubQuery Builders/Grants Program SQT Network contract internal
+                  MVP Coordinator and client SDK implementations
+                </p>
+              </div>
+            </div>
+            <div class="roadmap-slider-content">
+              <div class="roadmap-slider-title">END OF Q4 2021</div>
+              <div class="roadmap-slider-card">
+                <h4>App Beta Test</h4>
+                <p>
+                  SubQuery Builders/Grants Program SQT Network contract internal
+                  MVP Coordinator and client SDK implementations
+                </p>
+              </div>
+            </div>
+            <div class="roadmap-slider-content">
+              <div class="roadmap-slider-title">END OF Q4 2021</div>
+              <div class="roadmap-slider-card">
+                <h4>Token Test</h4>
+                <p>
+                  SubQuery Builders/Grants Program SQT Network contract internal
+                  MVP Coordinator and client SDK implementations
+                </p>
+              </div>
+            </div>
+            <div class="roadmap-slider-content">
+              <div class="roadmap-slider-title">END OF Q4 2021</div>
+              <div class="roadmap-slider-card">
+                <h4>Alpha Test</h4>
+                <p>
+                  SubQuery Builders/Grants Program SQT Network contract internal
+                  MVP Coordinator and client SDK implementations
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="invest-founders-section">
+        <div class="invest-container">
+          <div class="invest-container-title">
+            <h2>Invest in Our ecosystem shares today</h2>
+          </div>
+          <div class="invest-card-container">
+            <div class="invest-card">
+              <div class="invest-icon">
+                <img src="./assets/images/bitcoin logo big.webp" alt="" />
+              </div>
+              <div class="invest-button">
+                <a class="enclose-button btn-primary btn-large" href="#"
+                  >Enclose BTC</a
+                >
+              </div>
+            </div>
+            <div class="invest-card">
+              <div class="invest-icon">
+                <img src="./assets/images/eth image.webp" alt="" />
+              </div>
+              <div class="invest-button">
+                <a class="enclose-button btn-primary btn-large" href="#"
+                  >Enclose ETH</a
+                >
+              </div>
+            </div>
+            <div class="invest-card">
+              <div class="invest-icon">
+                <img src="./assets/images/bank logo.webp" alt="" />
+              </div>
+              <div class="invest-button">
+                <a class="enclose-button btn-primary btn-large" href="#"
+                  >Bank Transfer</a
+                >
+              </div>
+            </div>
+            <div class="invest-card">
+              <div class="invest-icon">
+                <img src="./assets/images/uxc image.webp" alt="" />
+              </div>
+              <div class="invest-button">
+                <a class="enclose-button btn-primary btn-large" href="#"
+                  >Enclose UXC</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="active-founders-container">
+          <div class="active-founders-title">
+            <h2>Active founders</h2>
+          </div>
+          <div class="active-founders-card-container">
+            <div class="active-founders-card">
+              <div class="founders-image">
+                <img src="./assets/images/profile image 12.webp" alt="" />
+              </div>
+              <div class="founders-info">
+                <h4>Eleanor Pena</h4>
+                <p>Founder & CEO</p>
+                <div class="founders-card-button-container">
+                  <div class="founders-button round-btn-secondary">
+                    <i class="ri-linkedin-box-fill"></i>
+                  </div>
+                  <div class="founders-button round-btn-secondary">
+                    <i class="ri-twitter-x-line"></i>
+                  </div>
+                  <div class="founders-button round-btn-secondary">
+                    <i class="ri-youtube-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="active-founders-card">
+              <div class="founders-image">
+                <img src="./assets/images/profile image 11.webp" alt="" />
+              </div>
+              <div class="founders-info">
+                <h4>William Xeno</h4>
+                <p>Founder & CEO</p>
+                <div class="founders-card-button-container">
+                  <div class="founders-button round-btn-secondary">
+                    <i class="ri-linkedin-box-fill"></i>
+                  </div>
+                  <div class="founders-button round-btn-secondary">
+                    <i class="ri-twitter-x-line"></i>
+                  </div>
+                  <div class="founders-button round-btn-secondary">
+                    <i class="ri-youtube-fill"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="team-members-container">
+          <div class="team-members-header"></div>
+          <div class="team-members-body"></div>
+        </div>
+      </section>
+      <section class="our-partners-section">
+        <div class="our-partners-title">
+          <h2>Our Partners</h2>
+        </div>
+        <div class="our-partners-slider-container">
+          <div class="our-partners-card slick-slide">
+            <div class="our-partners-card-image">
+              <img src="./assets/images/quotient logo.webp" alt="" />
+            </div>
+            <div class="our-partners-card-text">
+              <p>
+                Stable crypto currency and an important part of the UniFox
+                ecosystem
+              </p>
+            </div>
+            <div class="our-partners-card-button">
+              <a class="explore-button btn-primary btn-large" href=""
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+          <div class="our-partners-card slick-slide">
+            <div class="our-partners-card-image">
+              <img src="./assets/images/monday logo.webp" alt="" />
+            </div>
+            <div class="our-partners-card-text">
+              <p>
+                Online exchanger, specializing in the exchange of private
+                individuals
+              </p>
+            </div>
+            <div class="our-partners-card-button">
+              <a class="explore-button btn-primary btn-large" href=""
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+          <div class="our-partners-card slick-slide">
+            <div class="our-partners-card-image">
+              <img src="./assets/images/catalog logo.webp" alt="" />
+            </div>
+            <div class="our-partners-card-text">
+              <p>
+                A company that provides all IT services within the ecosystem of
+                UniFox
+              </p>
+            </div>
+            <div class="our-partners-card-button">
+              <a class="explore-button btn-primary btn-large" href=""
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+          <div class="our-partners-card slick-slide">
+            <div class="our-partners-card-image">
+              <img src="./assets/images/quotient logo.webp" alt="" />
+            </div>
+            <div class="our-partners-card-text">
+              <p>
+                Stable crypto currency and an important part of the UniFox
+                ecosystem
+              </p>
+            </div>
+            <div class="our-partners-card-button">
+              <a class="explore-button btn-primary btn-large" href=""
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+          <div class="our-partners-card">
+            <div class="our-partners-card-image">
+              <img src="./assets/images/monday logo.webp" alt="" />
+            </div>
+            <div class="our-partners-card-text">
+              <p>
+                Online exchanger, specializing in the exchange of private
+                individuals
+              </p>
+            </div>
+            <div class="our-partners-card-button">
+              <a class="explore-button btn-primary btn-large" href=""
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+          <div class="our-partners-card">
+            <div class="our-partners-card-image">
+              <img src="./assets/images/catalog logo.webp" alt="" />
+            </div>
+            <div class="our-partners-card-text">
+              <p>
+                A company that provides all IT services within the ecosystem of
+                UniFox
+              </p>
+            </div>
+            <div class="our-partners-card-button">
+              <a class="explore-button btn-primary btn-large" href=""
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+        </div>
+        <ul class="slick-dots">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section class="join-events-press-section">
+        <div class="join-events-container">
+          <div class="join-events-title">
+            <h2>Join Events to meet us</h2>
+          </div>
+          <div class="join-events-content">
+            <div class="join-events-row">
+              <div class="join-events-info">
+                <div class="join-events-image">
+                  <img src="./assets/images/ship image.webp" alt="" />
+                </div>
+                <div class="join-events-text">
+                  <h3>BlockVienna</h3>
+                  <div class="date-place">
+                    <div class="join-place">
+                      <i class="ri-map-pin-line"></i>
+                      <p>Vienna</p>
+                    </div>
+                    <div class="join-date">
+                      <i class="ri-time-line"></i>
+                      <p>August 17, 2024</p>
+                    </div>
+                  </div>
+                  <div class="join-us-button">
+                    <a class="btn-primary btn-small" href="#">JOIN US</a>
+                  </div>
+                </div>
+              </div>
+              <div class="join-events-info">
+                <div class="join-events-image">
+                  <img src="./assets/images/boardroom.webp" alt="" />
+                </div>
+                <div class="join-events-text">
+                  <h3>Summit Summits</h3>
+                  <div class="date-place">
+                    <div class="join-place">
+                      <i class="ri-map-pin-line"></i>
+                      <p>USA</p>
+                    </div>
+                    <div class="join-date">
+                      <i class="ri-time-line"></i>
+                      <p>June 12, 2024</p>
+                    </div>
+                  </div>
+                  <div class="join-us-button">
+                    <a class="btn-primary btn-small" href="#">JOIN US</a>
+                  </div>
+                </div>
+              </div>
+              <div class="join-events-info">
+                <div class="join-events-image">
+                  <img src="./assets/images/stock.webp" alt="" />
+                </div>
+                <div class="join-events-text">
+                  <h3>Blockchain Summit</h3>
+                  <div class="date-place">
+                    <div class="join-place">
+                      <i class="ri-map-pin-line"></i>
+                      <p>America</p>
+                    </div>
+                    <div class="join-date">
+                      <i class="ri-time-line"></i>
+                      <p>June 05, 2024</p>
+                    </div>
+                  </div>
+                  <div class="join-us-button">
+                    <a class="btn-primary btn-small" href="#">JOIN US</a>
+                  </div>
+                </div>
+              </div>
+              <div class="join-events-info">
+                <div class="join-events-image">
+                  <img src="./assets/images/bit image.webp" alt="" />
+                </div>
+                <div class="join-events-text">
+                  <h3>Economy ICO 2024</h3>
+                  <div class="date-place">
+                    <div class="join-place">
+                      <i class="ri-map-pin-line"></i>
+                      <p>Costa Rica</p>
+                    </div>
+                    <div class="join-date">
+                      <i class="ri-time-line"></i>
+                      <p>September 09, 2024</p>
+                    </div>
+                  </div>
+                  <div class="join-us-button">
+                    <a class="btn-primary btn-small" href="#">JOIN US</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="join-events-row">
+              <div class="join-events-info">
+                <div class="join-events-image">
+                  <img src="./assets/images/people.webp" alt="" />
+                </div>
+                <div class="join-events-text">
+                  <h3>Blockchain Summit</h3>
+                  <div class="date-place">
+                    <div class="join-place">
+                      <i class="ri-map-pin-line"></i>
+                      <p>Brazil</p>
+                    </div>
+                    <div class="join-date">
+                      <i class="ri-time-line"></i>
+                      <p>September 14, 2024</p>
+                    </div>
+                  </div>
+                  <div class="join-us-button">
+                    <a class="btn-primary btn-small" href="#">JOIN US</a>
+                  </div>
+                </div>
+              </div>
+              <div class="join-events-info">
+                <div class="join-events-image">
+                  <img src="./assets/images/confrence.webp" alt="" />
+                </div>
+                <div class="join-events-text">
+                  <h3>Blockchain & Bitcoin</h3>
+                  <div class="date-place">
+                    <div class="join-place">
+                      <i class="ri-map-pin-line"></i>
+                      <p>Argentina</p>
+                    </div>
+                    <div class="join-date">
+                      <i class="ri-time-line"></i>
+                      <p>August 14, 2024</p>
+                    </div>
+                  </div>
+                  <div class="join-us-button">
+                    <a class="btn-primary btn-small" href="#">JOIN US</a>
+                  </div>
+                </div>
+              </div>
+              <div class="join-events-info">
+                <div class="join-events-image">
+                  <img src="./assets/images/bitcoin.webp" alt="" />
+                </div>
+                <div class="join-events-text">
+                  <h3>Money Conference</h3>
+                  <div class="date-place">
+                    <div class="join-place">
+                      <i class="ri-map-pin-line"></i>
+                      <p>France</p>
+                    </div>
+                    <div class="join-date">
+                      <i class="ri-time-line"></i>
+                      <p>May 24, 2024</p>
+                    </div>
+                  </div>
+                  <div class="join-us-button">
+                    <a class="btn-primary btn-small" href="#">JOIN US</a>
+                  </div>
+                </div>
+              </div>
+              <div class="join-events-info">
+                <div class="join-events-image">
+                  <img src="./assets/images/man on stage.webp" alt="" />
+                </div>
+                <div class="join-events-text">
+                  <h3>Crypto Economy</h3>
+                  <div class="date-place">
+                    <div class="join-place">
+                      <i class="ri-map-pin-line"></i>
+                      <p>Saudi Arabia</p>
+                    </div>
+                    <div class="join-date">
+                      <i class="ri-time-line"></i>
+                      <p>May 24, 2024</p>
+                    </div>
+                  </div>
+                  <div class="join-us-button">
+                    <a class="btn-primary btn-small" href="#">JOIN US</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="press-us-container">
+          <div class="press-us-title">
+            <h2>Press us</h2>
+          </div>
+          <div class="press-us-slider-container">
+            <div class="press-us-slider-card">
+              <div class="press-us-card-content">
+                <div class="press-us-card-image">
+                  <img src="./assets/images/press-1-1.0ea66a35.svg" alt="" />
+                </div>
+                <div class="press-us-card-text">
+                  <h3>huffpost.com</h3>
+                  <p>
+                    UniFox seeks to incorporate cryptocurrencies into everyday
+                    life through the introduction of their autonomous design.
+                  </p>
+                </div>
+              </div>
+              <div class="press-us-card-button">
+                <a class="btn-outline btn-mid" href="">READ MORE</a>
+              </div>
+            </div>
+            <div class="press-us-slider-card">
+              <div class="press-us-card-content">
+                <div class="press-us-card-image">
+                  <img src="./assets/images/press-1-1.0ea66a35.svg" alt="" />
+                </div>
+                <div class="press-us-card-text">
+                  <h3>msnbc.com</h3>
+                  <p>
+                    In excellence from Tether or love another "stable"
+                    crippling. Unicash can easily be converted to local currency
+                    by special bankers
+                  </p>
+                </div>
+              </div>
+              <div class="press-us-card-button">
+                <a class="btn-outline btn-mid" href="">READ MORE</a>
+              </div>
+            </div>
+            <div class="press-us-slider-card">
+              <div class="press-us-card-content">
+                <div class="press-us-card-image">
+                  <img src="./assets/images/press-1-1.0ea66a35.svg" alt="" />
+                </div>
+                <div class="press-us-card-text">
+                  <h3>huffpost.com</h3>
+                  <p>
+                    UniFox seeks to incorporate cryptocurrencies into everyday
+                    life through the introduction of their autonomous design.
+                  </p>
+                </div>
+              </div>
+              <div class="press-us-card-button">
+                <a class="btn-outline btn-mid" href="">READ MORE</a>
+              </div>
+            </div>
+            <div class="press-us-slider-card">
+              <div class="press-us-card-content">
+                <div class="press-us-card-image">
+                  <img src="./assets/images/press-1-1.0ea66a35.svg" alt="" />
+                </div>
+                <div class="press-us-card-text">
+                  <h3>msnbc.com</h3>
+                  <p>
+                    In excellence from Tether or love another "stable"
+                    crippling. Unicash can easily be converted to local currency
+                    by special bankers
+                  </p>
+                </div>
+              </div>
+              <div class="press-us-card-button">
+                <a class="btn-outline btn-mid" href="">READ MORE</a>
+              </div>
+            </div>
+          </div>
+          <ul class="slick-dots">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+      <section class="faq-footer-section">
+        <div class="faq-container">
+          <div class="faq-intro">
+            <div class="faq-intro-title">
+              <h2>Frequently Asked Questions</h2>
+              <p>DO have any kind Of questions? We're here to help.</p>
+            </div>
+            <div class="faq-intro-image">
+              <img src="./assets/images/faq_1-1.webp" alt="" />
+            </div>
+          </div>
+          <div class="faq-content">
+            <div class="faq-card"></div>
+            <div class="faq-card"></div>
+            <div class="faq-card"></div>
+            <div class="faq-card"></div>
+            <div class="faq-card"></div>
+            <div class="faq-card"></div>
+            <div class="faq-card"></div>
+          </div>
+        </div>
+        <div class="footer-container">
+          <div class="footer-nav-bar">
+            <div class="footer-nav-icons"></div>
+            <div class="footer-nav-links"></div>
+          </div>
+          <div class="footer-additional">
+            <div class="footer-copyright"></div>
+            <div class="footer-add-links"></div>
+          </div>
+        </div>
+      </section>
     </main>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
