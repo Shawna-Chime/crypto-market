@@ -42,7 +42,7 @@
               <a href="./index.html">HOME</a>
               <ul class="dropdown-menu slide-down">
                 <li><a href="./index.html">ICO INVESTMENT</a></li>
-                <li><a href="#">BLOCKCHAIN</a></li>
+                <li><a href="./block-chain.html">BLOCKCHAIN</a></li>
               </ul>
             </li>
             <li><a href="">FEATURE</a></li>
@@ -50,7 +50,7 @@
             <li>
               <a href="">BLOG</a>
               <ul class="dropdown-menu slide-down">
-                <li><a href="#">OUR BLOG</a></li>
+                <li><a href="./our-blog.html">OUR BLOG</a></li>
                 <li><a href="./blog_details.html">BLOG-DETAILS</a></li>
               </ul>
             </li>
@@ -67,6 +67,61 @@
             </div>
           </div>
         </div>
+        <nav>
+          <div class="mobile-menu">
+            <div class="mobile-menu-header">
+              <img src="./assets/images/iko logo.webp" alt="" />
+              <i class="ri-close-line"></i>
+            </div>
+            <div class="mobile-menu-nav-links">
+              <ul>
+                <li>
+                  <div class="mob-menu-carry">
+                    <a href="#">HOME</a>
+                    <i
+                      onclick="myFunction()"
+                      id="btn-rotate"
+                      class="square-btn ri-arrow-drop-down-line mob-drop-down-btn"
+                    ></i>
+                  </div>
+                  <div class="mobile-dropdown">
+                    <div id="myDropdown" class="mob-dropdown-content">
+                      <a href="./index.html">ICO INVESTMENT</a> <br />
+                      <a href="./block-chain.html">BLOCKCHAIN</a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="">FEATURE</a></li>
+                <li><a href="">ROADMAP</a></li>
+                <li>
+                  <div class="mob-menu-carry">
+                    <a href="">BLOG</a>
+                    <i
+                      onclick="myFunctionTwo()"
+                      id="btn-rotate-two"
+                      class="square-btn ri-arrow-drop-down-line mob-drop-down-btn"
+                    ></i>
+                  </div>
+                  <div class="mobile-dropdown">
+                    <div id="myDropdownTwo" class="mob-dropdown-content">
+                      <a href="./our-blog.html">OUR BLOG</a> <br />
+                      <a href="./blog_details.html">BLOG-DETAILS</a>
+                    </div>
+                  </div>
+                </li>
+
+                <li><a href="">CONTACT</a></li>
+              </ul>
+            </div>
+            <div class="mobile-menu-socials">
+              <i class="ri-facebook-fill"></i>
+              <i class="ri-twitter-fill"></i>
+              <i class="ri-instagram-line"></i>
+              <i class="ri-linkedin-fill"></i>
+              <i class="ri-youtube-fill"></i>
+            </div>
+          </div>
+        </nav>
       </header>
       <div class="body-container">
         <section class="hero-section">
@@ -147,6 +202,9 @@
               </div>
             </div>
           </div>
+          <button onclick="toTopFunction()" id="to-the-top">
+            <i class="ri-arrow-drop-up-line square-btn"></i>
+          </button>
           <div class="top-parnters-container">
             <div class="top-partners-title">
               <div class="pink-dot"></div>
@@ -503,14 +561,24 @@
                 <h4>Eleanor Pena</h4>
                 <p>Founder & CEO</p>
                 <div class="founders-card-button-container">
-                  <div class="founders-button round-btn-secondary">
-                    <i class="ri-linkedin-box-fill"></i>
+                  <div class="founders-button">
+                    <a
+                      class="round-btn-secondary"
+                      href="https://www.linkedin.com/"
+                      ><i class="ri-linkedin-box-fill"></i
+                    ></a>
                   </div>
-                  <div class="founders-button round-btn-secondary">
-                    <i class="ri-twitter-x-line"></i>
+                  <div class="founders-button">
+                    <a class="round-btn-secondary" href="https://x.com"
+                      ><i class="ri-twitter-x-line"></i
+                    ></a>
                   </div>
-                  <div class="founders-button round-btn-secondary">
-                    <i class="ri-youtube-fill"></i>
+                  <div class="founders-button">
+                    <a
+                      class="round-btn-secondary"
+                      href="https://www.youtube.com/"
+                      ><i class="ri-youtube-fill"></i
+                    ></a>
                   </div>
                 </div>
               </div>
@@ -523,14 +591,24 @@
                 <h4>William Xeno</h4>
                 <p>Founder & CEO</p>
                 <div class="founders-card-button-container">
-                  <div class="founders-button round-btn-secondary">
-                    <i class="ri-linkedin-box-fill"></i>
+                  <div class="founders-button">
+                    <a
+                      class="round-btn-secondary"
+                      href="https://www.linkedin.com/"
+                      ><i class="ri-linkedin-box-fill"></i
+                    ></a>
                   </div>
-                  <div class="founders-button round-btn-secondary">
-                    <i class="ri-twitter-x-line"></i>
+                  <div class="founders-button">
+                    <a class="round-btn-secondary" href="https://x.com"
+                      ><i class="ri-twitter-x-line"></i
+                    ></a>
                   </div>
-                  <div class="founders-button round-btn-secondary">
-                    <i class="ri-youtube-fill"></i>
+                  <div class="founders-button">
+                    <a
+                      class="round-btn-secondary"
+                      href="https://www.youtube.com/"
+                      ><i class="ri-youtube-fill"></i
+                    ></a>
                   </div>
                 </div>
               </div>
@@ -538,8 +616,155 @@
           </div>
         </div>
         <div class="team-members-container">
-          <div class="team-members-header"></div>
-          <div class="team-members-body"></div>
+          <div class="team-members-header">
+            <div class="team-members-title active">
+              <h2>Advisory Team</h2>
+            </div>
+            <div class="team-members-title">
+              <h2>Management Team</h2>
+            </div>
+            <div class="team-members-title">
+              <h2>Marketing Team</h2>
+            </div>
+          </div>
+          <div class="team-members-body">
+            <div class="members-body-row">
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 1.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Jacob Jones</h3>
+                </div>
+              </div>
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 2.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Albert Flores</h3>
+                </div>
+              </div>
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 3.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Devon Lane</h3>
+                </div>
+              </div>
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 4.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Jacob Jones</h3>
+                </div>
+              </div>
+            </div>
+            <div class="members-body-row">
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 5.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Jacob Jones</h3>
+                </div>
+              </div>
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 6.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Jacob Jones</h3>
+                </div>
+              </div>
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 7.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Albert Flores</h3>
+                </div>
+              </div>
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 8.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Devon Lane</h3>
+                </div>
+              </div>
+            </div>
+            <div class="members-body-row">
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 9.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Jacob Jones</h3>
+                </div>
+              </div>
+              <div class="member-profile">
+                <div class="member-profile-pic">
+                  <img src="./assets/images/profile image 10.webp" alt="" />
+                </div>
+                <div class="member-profile-button">
+                  <a href="https://www.linkedin.com/"
+                    ><i class="ri-linkedin-box-fill round-btn-primary"></i
+                  ></a>
+                </div>
+                <div class="member-profile-name">
+                  <h3>Jacob Jones</h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="our-partners-section">
@@ -660,83 +885,87 @@
           </div>
           <div class="join-events-content">
             <div class="join-events-row">
-              <div class="join-events-info">
-                <div class="join-events-image">
-                  <img src="./assets/images/ship image.webp" alt="" />
-                </div>
-                <div class="join-events-text">
-                  <h3>BlockVienna</h3>
-                  <div class="date-place">
-                    <div class="join-place">
-                      <i class="ri-map-pin-line"></i>
-                      <p>Vienna</p>
+              <div class="join-events-group">
+                <div class="join-events-info">
+                  <div class="join-events-image">
+                    <img src="./assets/images/ship image.webp" alt="" />
+                  </div>
+                  <div class="join-events-text">
+                    <h3>BlockVienna</h3>
+                    <div class="date-place">
+                      <div class="join-place">
+                        <i class="ri-map-pin-line"></i>
+                        <p>Vienna</p>
+                      </div>
+                      <div class="join-date">
+                        <i class="ri-time-line"></i>
+                        <p>August 17, 2024</p>
+                      </div>
                     </div>
-                    <div class="join-date">
-                      <i class="ri-time-line"></i>
-                      <p>August 17, 2024</p>
+                    <div class="join-us-button">
+                      <a class="btn-primary btn-small" href="#">JOIN US</a>
                     </div>
                   </div>
-                  <div class="join-us-button">
-                    <a class="btn-primary btn-small" href="#">JOIN US</a>
-                  </div>
                 </div>
-              </div>
-              <div class="join-events-info">
-                <div class="join-events-image">
-                  <img src="./assets/images/boardroom.webp" alt="" />
-                </div>
-                <div class="join-events-text">
-                  <h3>Summit Summits</h3>
-                  <div class="date-place">
-                    <div class="join-place">
-                      <i class="ri-map-pin-line"></i>
-                      <p>USA</p>
-                    </div>
-                    <div class="join-date">
-                      <i class="ri-time-line"></i>
-                      <p>June 12, 2024</p>
-                    </div>
+                <div class="join-events-info">
+                  <div class="join-events-image">
+                    <img src="./assets/images/boardroom.webp" alt="" />
                   </div>
-                  <div class="join-us-button">
-                    <a class="btn-primary btn-small" href="#">JOIN US</a>
-                  </div>
-                </div>
-              </div>
-              <div class="join-events-info">
-                <div class="join-events-image">
-                  <img src="./assets/images/stock.webp" alt="" />
-                </div>
-                <div class="join-events-text">
-                  <h3>Blockchain Summit</h3>
-                  <div class="date-place">
-                    <div class="join-place">
-                      <i class="ri-map-pin-line"></i>
-                      <p>America</p>
+                  <div class="join-events-text">
+                    <h3>Summit Summits</h3>
+                    <div class="date-place">
+                      <div class="join-place">
+                        <i class="ri-map-pin-line"></i>
+                        <p>USA</p>
+                      </div>
+                      <div class="join-date">
+                        <i class="ri-time-line"></i>
+                        <p>June 12, 2024</p>
+                      </div>
                     </div>
-                    <div class="join-date">
-                      <i class="ri-time-line"></i>
-                      <p>June 05, 2024</p>
+                    <div class="join-us-button">
+                      <a class="btn-primary btn-small" href="#">JOIN US</a>
                     </div>
-                  </div>
-                  <div class="join-us-button">
-                    <a class="btn-primary btn-small" href="#">JOIN US</a>
                   </div>
                 </div>
               </div>
-              <div class="join-events-info">
-                <div class="join-events-image">
-                  <img src="./assets/images/bit image.webp" alt="" />
-                </div>
-                <div class="join-events-text">
-                  <h3>Economy ICO 2024</h3>
-                  <div class="date-place">
-                    <div class="join-place">
-                      <i class="ri-map-pin-line"></i>
-                      <p>Costa Rica</p>
+              <div class="join-events-group">
+                <div class="join-events-info">
+                  <div class="join-events-image">
+                    <img src="./assets/images/stock.webp" alt="" />
+                  </div>
+                  <div class="join-events-text">
+                    <h3>Blockchain Summit</h3>
+                    <div class="date-place">
+                      <div class="join-place">
+                        <i class="ri-map-pin-line"></i>
+                        <p>America</p>
+                      </div>
+                      <div class="join-date">
+                        <i class="ri-time-line"></i>
+                        <p>June 05, 2024</p>
+                      </div>
                     </div>
-                    <div class="join-date">
-                      <i class="ri-time-line"></i>
-                      <p>September 09, 2024</p>
+                    <div class="join-us-button">
+                      <a class="btn-primary btn-small" href="#">JOIN US</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="join-events-info">
+                  <div class="join-events-image">
+                    <img src="./assets/images/bit image.webp" alt="" />
+                  </div>
+                  <div class="join-events-text">
+                    <h3>Economy ICO 2024</h3>
+                    <div class="date-place">
+                      <div class="join-place">
+                        <i class="ri-map-pin-line"></i>
+                        <p>Costa Rica</p>
+                      </div>
+                      <div class="join-date">
+                        <i class="ri-time-line"></i>
+                        <p>September 09, 2024</p>
+                      </div>
                     </div>
                   </div>
                   <div class="join-us-button">
@@ -746,87 +975,91 @@
               </div>
             </div>
             <div class="join-events-row">
-              <div class="join-events-info">
-                <div class="join-events-image">
-                  <img src="./assets/images/people.webp" alt="" />
-                </div>
-                <div class="join-events-text">
-                  <h3>Blockchain Summit</h3>
-                  <div class="date-place">
-                    <div class="join-place">
-                      <i class="ri-map-pin-line"></i>
-                      <p>Brazil</p>
+              <div class="join-events-group">
+                <div class="join-events-info">
+                  <div class="join-events-image">
+                    <img src="./assets/images/people.webp" alt="" />
+                  </div>
+                  <div class="join-events-text">
+                    <h3>Blockchain Summit</h3>
+                    <div class="date-place">
+                      <div class="join-place">
+                        <i class="ri-map-pin-line"></i>
+                        <p>Brazil</p>
+                      </div>
+                      <div class="join-date">
+                        <i class="ri-time-line"></i>
+                        <p>September 14, 2024</p>
+                      </div>
                     </div>
-                    <div class="join-date">
-                      <i class="ri-time-line"></i>
-                      <p>September 14, 2024</p>
+                    <div class="join-us-button">
+                      <a class="btn-primary btn-small" href="#">JOIN US</a>
                     </div>
                   </div>
-                  <div class="join-us-button">
-                    <a class="btn-primary btn-small" href="#">JOIN US</a>
-                  </div>
                 </div>
-              </div>
-              <div class="join-events-info">
-                <div class="join-events-image">
-                  <img src="./assets/images/confrence.webp" alt="" />
-                </div>
-                <div class="join-events-text">
-                  <h3>Blockchain & Bitcoin</h3>
-                  <div class="date-place">
-                    <div class="join-place">
-                      <i class="ri-map-pin-line"></i>
-                      <p>Argentina</p>
-                    </div>
-                    <div class="join-date">
-                      <i class="ri-time-line"></i>
-                      <p>August 14, 2024</p>
-                    </div>
+                <div class="join-events-info">
+                  <div class="join-events-image">
+                    <img src="./assets/images/confrence.webp" alt="" />
                   </div>
-                  <div class="join-us-button">
-                    <a class="btn-primary btn-small" href="#">JOIN US</a>
-                  </div>
-                </div>
-              </div>
-              <div class="join-events-info">
-                <div class="join-events-image">
-                  <img src="./assets/images/bitcoin.webp" alt="" />
-                </div>
-                <div class="join-events-text">
-                  <h3>Money Conference</h3>
-                  <div class="date-place">
-                    <div class="join-place">
-                      <i class="ri-map-pin-line"></i>
-                      <p>France</p>
+                  <div class="join-events-text">
+                    <h3>Blockchain & Bitcoin</h3>
+                    <div class="date-place">
+                      <div class="join-place">
+                        <i class="ri-map-pin-line"></i>
+                        <p>Argentina</p>
+                      </div>
+                      <div class="join-date">
+                        <i class="ri-time-line"></i>
+                        <p>August 14, 2024</p>
+                      </div>
                     </div>
-                    <div class="join-date">
-                      <i class="ri-time-line"></i>
-                      <p>May 24, 2024</p>
+                    <div class="join-us-button">
+                      <a class="btn-primary btn-small" href="#">JOIN US</a>
                     </div>
-                  </div>
-                  <div class="join-us-button">
-                    <a class="btn-primary btn-small" href="#">JOIN US</a>
                   </div>
                 </div>
               </div>
-              <div class="join-events-info">
-                <div class="join-events-image">
-                  <img src="./assets/images/man on stage.webp" alt="" />
-                </div>
-                <div class="join-events-text">
-                  <h3>Crypto Economy</h3>
-                  <div class="date-place">
-                    <div class="join-place">
-                      <i class="ri-map-pin-line"></i>
-                      <p>Saudi Arabia</p>
+              <div class="join-events-group">
+                <div class="join-events-info">
+                  <div class="join-events-image">
+                    <img src="./assets/images/bitcoin.webp" alt="" />
+                  </div>
+                  <div class="join-events-text">
+                    <h3>Money Conference</h3>
+                    <div class="date-place">
+                      <div class="join-place">
+                        <i class="ri-map-pin-line"></i>
+                        <p>France</p>
+                      </div>
+                      <div class="join-date">
+                        <i class="ri-time-line"></i>
+                        <p>May 24, 2024</p>
+                      </div>
                     </div>
-                    <div class="join-date">
-                      <i class="ri-time-line"></i>
-                      <p>May 24, 2024</p>
+                    <div class="join-us-button">
+                      <a class="btn-primary btn-small" href="#">JOIN US</a>
                     </div>
                   </div>
-                  <div class="join-us-button">
-                    <a class="btn-primary btn-small" href="#">JOIN US</a>
+                </div>
+                <div class="join-events-info">
+                  <div class="join-events-image">
+                    <img src="./assets/images/man on stage.webp" alt="" />
+                  </div>
+                  <div class="join-events-text">
+                    <h3>Crypto Economy</h3>
+                    <div class="date-place">
+                      <div class="join-place">
+                        <i class="ri-map-pin-line"></i>
+                        <p>Saudi Arabia</p>
+                      </div>
+                      <div class="join-date">
+                        <i class="ri-time-line"></i>
+                        <p>May 24, 2024</p>
+                      </div>
+                    </div>
+                    <div class="join-us-button">
+                      <a class="btn-primary btn-small" href="#">JOIN US</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -929,27 +1162,196 @@
             </div>
           </div>
           <div class="faq-content">
-            <div class="faq-card"></div>
-            <div class="faq-card"></div>
-            <div class="faq-card"></div>
-            <div class="faq-card"></div>
-            <div class="faq-card"></div>
-            <div class="faq-card"></div>
-            <div class="faq-card"></div>
+            <div class="faq-card">
+              <div class="faq-card-header">
+                <div class="faq-card-title">
+                  <div class="faq-card-number border">1</div>
+                  <h3>How to buy FOX Tokens?</h3>
+                </div>
+                <div class="faq-icon">
+                  <i class="ri-subtract-line"></i>
+                </div>
+              </div>
+              <p>
+                It's very simple! Register here. In your personal account,
+                create a wallet where you can store your FOX tokens. Then just
+                send any amount to the displayed address in your office.
+              </p>
+            </div>
+            <div class="faq-card">
+              <div class="faq-card-header">
+                <div class="faq-card-title">
+                  <div class="faq-card-number border">2</div>
+                  <h3>What is the value of FOX Tokens?</h3>
+                </div>
+                <div class="faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+              </div>
+            </div>
+            <div class="faq-card">
+              <div class="faq-card-header">
+                <div class="faq-card-title">
+                  <div class="faq-card-number border">3</div>
+                  <h3>What is the value of FOX Tokens?</h3>
+                </div>
+                <div class="faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+              </div>
+            </div>
+            <div class="faq-card">
+              <div class="faq-card-header">
+                <div class="faq-card-title">
+                  <div class="faq-card-number border">4</div>
+                  <h3>How are coins distributed?</h3>
+                </div>
+                <div class="faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+              </div>
+            </div>
+            <div class="faq-card">
+              <div class="faq-card-header">
+                <div class="faq-card-title">
+                  <div class="faq-card-number border">5</div>
+                  <h3>How to buy FOX Tokens?</h3>
+                </div>
+                <div class="faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+              </div>
+            </div>
+            <div class="faq-card">
+              <div class="faq-card-header">
+                <div class="faq-card-title">
+                  <div class="faq-card-number border">6</div>
+                  <h3>How to buy FOX Tokens?</h3>
+                </div>
+                <div class="faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+              </div>
+            </div>
+            <div class="faq-card">
+              <div class="faq-card-header">
+                <div class="faq-card-title">
+                  <div class="faq-card-number border">7</div>
+                  <h3>How to buy FOX Tokens?</h3>
+                </div>
+                <div class="faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="footer-container">
           <div class="footer-nav-bar">
-            <div class="footer-nav-icons"></div>
-            <div class="footer-nav-links"></div>
+            <div class="footer-nav-icons">
+              <a href="https://web.facebook.com/"
+                ><i class="ri-facebook-fill round-btn-tetiary"></i
+              ></a>
+              <a href="https://x.com/"
+                ><i class="ri-twitter-x-line round-btn-tetiary"></i
+              ></a>
+              <a href="https://www.instagram.com/"
+                ><i class="ri-instagram-line round-btn-tetiary"></i
+              ></a>
+              <a href="https://www.linkedin.com/"
+                ><i class="ri-linkedin-box-fill round-btn-tetiary"></i
+              ></a>
+            </div>
+            <div class="footer-nav-links">
+              <ul>
+                <li>
+                  <a href="#">HOME</a>
+                </li>
+                <li>
+                  <a href="#">OUR PROJECTS</a>
+                </li>
+                <li>
+                  <a href="#">OUR TEAM</a>
+                </li>
+                <li>
+                  <a href="#">NEWS FAQ</a>
+                </li>
+                <li>
+                  <a href="#">DOCUMENTS</a>
+                </li>
+              </ul>
+            </div>
           </div>
+          <hr />
           <div class="footer-additional">
-            <div class="footer-copyright"></div>
-            <div class="footer-add-links"></div>
+            <div class="footer-copyright">
+              <h4>Copyright © 2024 IKO. All rights reserved.</h4>
+            </div>
+            <div class="footer-add-links">
+              <ul>
+                <li>
+                  <a href="#">Job & Career</a>
+                </li>
+                <li>
+                  <a href="#">Terms and Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Help Center</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
     </main>
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        document.getElementById("btn-rotate").classList.toggle("btn-rotate");
+      }
+      function myFunctionTwo() {
+        document.getElementById("myDropdownTwo").classList.toggle("show");
+        document
+          .getElementById("btn-rotate-two")
+          .classList.toggle("btn-rotate");
+      }
+
+      window.onclick = function (event) {
+        if (!event.target.matches(".mob-drop-down-btn")) {
+          var dropdowns = document.getElementsByClassName(
+            "mob-dropdown-content"
+          );
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+
+      let mybutton = document.getElementById("to-the-top");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function toTopFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
